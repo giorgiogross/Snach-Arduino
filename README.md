@@ -1,2 +1,2 @@
-# snach_arduino
-DIY Smartwatch build with Arduino.
+# Snach Arduino
+DIY Smartwatch built with Arduino.
