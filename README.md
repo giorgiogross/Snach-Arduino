@@ -14,6 +14,14 @@ Navigation is realized like this: Imagine a double linked list with the watch fa
 
 3rd party Apps can use the Android API to configure and offer widgets. Navigating to an App triggers the App to start requesing the layout configuration and contents of the widget from the 3rd party App. If you press a button while the App is shown these button events are also transmitted to the 3rd party Android App. This way it can respond to button clicks and update the screen content as needed.
 
+You need to include the following libraries to your Arduino IDE which are used by the Snach:
+https://github.com/adafruit/Adafruit_SHARP_Memory_Display
+https://github.com/adafruit/Adafruit-GFX-Library
+https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050
+https://www.arduino.cc/en/Reference/Wire
+https://github.com/adafruit/RTClib
+https://github.com/Cheong2K/ble-sdk-arduino
+
 # The Hardware
 To get the Snach running you will need to hook up all DIY boards as shown in the schematics to an Arduino Mega and upload the code to the Arduino. I'm not much of an electronical engineer, so I took the schematics from the open source schematics and put them into one file. I annotated the name of the parts, I think this way it is easier to see how should connected the components.
 
@@ -30,4 +38,4 @@ Used Components:
 </ul>
 
 # Licenses
-See the licenses folder for licenses of the hardware and software used in this project. Code and creative contents created by me are signed as such and licensed under the Apache-2.0. See LICENSE.txt for details.
+See the licenses.txt for licenses of the schematics used in this project. Code and creative contents created by me are signed as such and licensed under the Apache-2.0. See LICENSE.txt for details. Code not created by me is signed as such and includes a copyright notice on the top.
