@@ -29,6 +29,9 @@ https://github.com/Cheong2K/ble-sdk-arduino <br>
 To get the Snach running you will need to hook up all DIY boards as shown in the schematics to an Arduino Mega and upload the code to the Arduino. I'm not much of an electronical engineer, so I took the schematics from the open source schematics and put them into one file. I annotated the name of the parts, I think this way it is easier to see how should connected the components.
 
 Used Components:
+<p>
+<img src="DSCN0701edited.png">
+<p>
 <ul>
 <li>Adruino Mega 2560
 <li>BLEShield by RedBearLabs; To create a new BLE Profile the nRF Studio software provided by nRF Semiconductors was pretty helpful
