@@ -1,5 +1,8 @@
 # Snach Arduino
 DIY Smartwatch built with Arduino.
+<p>
+<img src="IMG_20150512_244902311.jpg">
+<p>
 
 This is the Arduino code for the project demonstrated at https://www.youtube.com/watch?v=0DXkcHel6NA <br>
 I am not working actively on this project anymore, but I wanted to share the code with you. I wrote all of this right before I started to study computer sciences, so I was gaining experience and developping my coding skills through the project.
